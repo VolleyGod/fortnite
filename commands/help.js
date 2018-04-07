@@ -1,0 +1,10 @@
+exports.run = (client, message, args, prettyMs) => {
+  (message.author.send(`= HELP =
+• HELP       :: FIND OUT ALL OF THE AVAILABLE COMMANDS 
+• UPTIME     :: HOW LONG I HAVE BEEN ONLINE
+• INVITE     :: GET A LINK TO INVITE ME TO YOUR SERVER
+• PING       :: MY FIRST COMMAND (STILL FUNCTIONAL)
+• STATS      :: VIEW BOT STATISTICS
+• FORTNITE   :: GET FORTNITE STATS BY USERNAME
+• MUSICHELP  :: GET THE MUSIC COMMANDS`, {code: "asciidoc"}));
+};
